@@ -1,0 +1,32 @@
+.todo_add_form {
+	margin-top: 50px;
+}
+
+.todo_add_form form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.todo_add_form form input {
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	font-family: hack;
+	box-sizing: border-box;
+}
+
+.todo_add_form button {
+	padding: 5px 8px;
+	border: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.todo_add_form button:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.todo_nav {
+	background: #d5d5d5;
+	height: 45px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.todo_nav div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.todo_nav button {
+	padding: 5px 15px;
+	background: inherit;
+	font-family: hack;
+	border: none;
+	border-left: solid 1px rgba(0, 0, 0, 0.2);
+	outline: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.todo_nav button:hover {
+	cursor: pointer;
+}
+
+.todo_nav img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 0 5px;
+	padding: 1px;
+}

@@ -1,0 +1,15 @@
+.homepage {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	font-family: hack;
+	margin: auto;
+	margin-top: 20px;
+	width: 50%;
+}
+
+@media (max-width: 500px) {
+	.homepage {
+		width: 85%;
+	}
+}

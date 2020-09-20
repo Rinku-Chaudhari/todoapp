@@ -1,0 +1,31 @@
+.todo_item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background: #d5d5d5;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	word-break: break-word;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.todo_item button {
+	height: 30px;
+	max-width: 45px;
+	min-width: 45px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	background: #f8f8ff;
+	border-radius: 5px;
+	font-family: hack;
+	outline: none;
+}
+
+.todo_item button:hover {
+	cursor: pointer;
+	border: solid 1px red;
+}
